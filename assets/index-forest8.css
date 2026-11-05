@@ -53,7 +53,7 @@ button.primary,.primary{background:var(--accent);color:var(--accent-ink);border-
 .moss .done-button{background:#ffffff1f}
 
 /* v4: misty forest backdrop */
-:root,body{background:#2d3318 linear-gradient(#191d0a40,#191d0a40),url(forest.svg) center/cover fixed;background:linear-gradient(#191d0a38,#191d0a38),url(forest.svg) center/cover fixed #2d3318}
+:root,body{background:#2d3318 linear-gradient(#191d0a40,#191d0a40),url(forest-racing8.svg) center/cover fixed;background:linear-gradient(#191d0a38,#191d0a38),url(forest-racing8.svg) center/cover fixed #2d3318}
 body{min-height:100dvh}
 .topbar{background:#1a1e0a8c;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
 .sidebar{background:#1a1e0a73;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
@@ -73,7 +73,7 @@ body{min-height:100dvh}
 
 /* v5: neutral, less green */
 :root{--ground:#25231d;--chrome:#1b1a15;--chrome-hi:#2a2820;--surface:#3a362b;--raised:#4a4435;--text:#f3efe2;--muted:#cdc7b0;--accent:#dccfa6;--accent-ink:#201c0e;--sage:#8f9467;--fern:#7a722a;--moss:#563a1e}
-:root,body{background:linear-gradient(#12110d4d,#12110d4d),url(forest.svg) center/cover fixed #25231d}
+:root,body{background:linear-gradient(#12110d4d,#12110d4d),url(forest-racing8.svg) center/cover fixed #25231d}
 .topbar{background:#12110d99}
 .sidebar{background:#12110d80}
 .search-wrap{background:#12110dad}
@@ -91,7 +91,7 @@ body{min-height:100dvh}
 
 /* v6: dark forest green */
 :root{--ground:#16231c;--chrome:#0f1a14;--chrome-hi:#1b2b22;--surface:#233529;--raised:#2d4435;--text:#f1efe0;--muted:#c3cdbb;--accent:#4f6f55;--accent-ink:#f4f1e2;--green-ink:#12201a}
-:root,body{background:linear-gradient(#0a110d59,#0a110d59),url(forest.svg) center/cover fixed #16231c}
+:root,body{background:linear-gradient(#0a110d59,#0a110d59),url(forest-racing8.svg) center/cover fixed #16231c}
 .topbar{background:#0a110dad}
 .sidebar{background:#0a110d99}
 .search-wrap,.composer,.auth-form input,.demo-banner{background:#0a110db3}
@@ -111,7 +111,7 @@ button.primary,.primary{background:var(--accent);color:var(--accent-ink)}
 
 /* v7: British racing green */
 :root{--ground:#0a2a1f;--chrome:#071a11;--chrome-hi:#0d2e21;--surface:#0f3324;--raised:#134029;--accent:#004225;--accent-ink:#f4f1e2;--muted:#c0d3c4}
-:root,body{background:linear-gradient(#04100a40,#04100a40),url(forest.svg) center/cover fixed #0a2a1f}
+:root,body{background:linear-gradient(#04100a40,#04100a40),url(forest-racing8.svg) center/cover fixed #0a2a1f}
 .topbar{background:#04100ab3}
 .sidebar{background:#04100a99}
 .search-wrap,.composer,.auth-form input,.demo-banner{background:#04100ab8}
