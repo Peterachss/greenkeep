@@ -191,3 +191,13 @@ body::before{background:linear-gradient(#04100a8c,#04100a73),url(forest-photo18.
 ::-webkit-scrollbar-button{display:none;width:0;height:0}
 ::-webkit-scrollbar-corner{background:#04100a}
 .brand img{border-radius:9px}
+
+/* v24: locked on phones: no bounce, no pinch, no sideways drift, steady background */
+html,body{overscroll-behavior:none;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+html{overflow-x:clip;-webkit-tap-highlight-color:transparent}
+body{overflow-x:clip;touch-action:pan-y;max-width:100vw}
+body::before{inset:auto;top:0;left:0;width:100%;height:100vh;height:100lvh;transform:translateZ(0);will-change:transform}
+.auth-page{overflow-x:clip;overscroll-behavior:contain;touch-action:pan-y}
+.workspace{overscroll-behavior-y:contain}
+.sidebar nav,.editor{overscroll-behavior:contain}
+img,svg{-webkit-user-drag:none;user-select:none}
