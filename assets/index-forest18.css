@@ -154,3 +154,11 @@ body::before{background:linear-gradient(#0a201014,#0a201014),url(forest-wood16.s
 .topbar{background:#0a2010cc}
 .search-wrap,.composer{background:#0a2010b3}
 .empty-state{background:#0a2010a6}
+
+/* v18: real forest photo background */
+body::before{background:linear-gradient(#04100a8c,#04100a73),url(forest-photo18.jpg) center/cover no-repeat}
+.topbar{background:#04100ad9}
+.sidebar{background:#04100ab3}
+.search-wrap,.composer{background:#04100acc}
+.empty-state{background:#04100aa6}
+.auth-form input,.demo-banner{background:#04100acc}
