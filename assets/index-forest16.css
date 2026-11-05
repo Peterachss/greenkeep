@@ -53,7 +53,7 @@ button.primary,.primary{background:var(--accent);color:var(--accent-ink);border-
 .moss .done-button{background:#ffffff1f}
 
 /* v4: misty forest backdrop */
-:root,body{background:#2d3318 linear-gradient(#191d0a40,#191d0a40),url(forest-shades14.svg) center/cover fixed;background:linear-gradient(#191d0a38,#191d0a38),url(forest-shades14.svg) center/cover fixed #2d3318}
+:root,body{background:#2d3318 linear-gradient(#191d0a40,#191d0a40),url(forest-wood16.svg) center/cover fixed;background:linear-gradient(#191d0a38,#191d0a38),url(forest-wood16.svg) center/cover fixed #2d3318}
 body{min-height:100dvh}
 .topbar{background:#1a1e0a8c;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
 .sidebar{background:#1a1e0a73;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
@@ -73,7 +73,7 @@ body{min-height:100dvh}
 
 /* v5: neutral, less green */
 :root{--ground:#25231d;--chrome:#1b1a15;--chrome-hi:#2a2820;--surface:#3a362b;--raised:#4a4435;--text:#f3efe2;--muted:#cdc7b0;--accent:#dccfa6;--accent-ink:#201c0e;--sage:#8f9467;--fern:#7a722a;--moss:#563a1e}
-:root,body{background:linear-gradient(#12110d4d,#12110d4d),url(forest-shades14.svg) center/cover fixed #25231d}
+:root,body{background:linear-gradient(#12110d4d,#12110d4d),url(forest-wood16.svg) center/cover fixed #25231d}
 .topbar{background:#12110d99}
 .sidebar{background:#12110d80}
 .search-wrap{background:#12110dad}
@@ -91,7 +91,7 @@ body{min-height:100dvh}
 
 /* v6: dark forest green */
 :root{--ground:#16231c;--chrome:#0f1a14;--chrome-hi:#1b2b22;--surface:#233529;--raised:#2d4435;--text:#f1efe0;--muted:#c3cdbb;--accent:#4f6f55;--accent-ink:#f4f1e2;--green-ink:#12201a}
-:root,body{background:linear-gradient(#0a110d59,#0a110d59),url(forest-shades14.svg) center/cover fixed #16231c}
+:root,body{background:linear-gradient(#0a110d59,#0a110d59),url(forest-wood16.svg) center/cover fixed #16231c}
 .topbar{background:#0a110dad}
 .sidebar{background:#0a110d99}
 .search-wrap,.composer,.auth-form input,.demo-banner{background:#0a110db3}
@@ -112,7 +112,7 @@ button.primary,.primary{background:var(--accent);color:var(--accent-ink)}
 /* v11: smooth rendering, no blur, forest on its own layer */
 *{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
 :root{background:#16231c!important}body{background:transparent!important}
-body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(#0a110d59,#0a110d59),url(forest-shades14.svg) center/cover no-repeat;transform:translateZ(0);will-change:transform}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(#0a110d59,#0a110d59),url(forest-wood16.svg) center/cover no-repeat;transform:translateZ(0);will-change:transform}
 .topbar{background:#0a110df2}
 .sidebar{background:#0a110dd9}
 .search-wrap,.composer,.auth-form input,.demo-banner{background:#0a110dd9}
@@ -123,7 +123,7 @@ body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;ba
 /* v14: only the five dark-green shades (#0a3324 #0a2f1e #0d2a18 #0c2412 #0a2010) */
 :root{--ground:#0a2010;--chrome:#0a2010;--chrome-hi:#0c2412;--surface:#0c2412;--raised:#0d2a18;--accent:#0a3324;--accent-ink:#eef3ea;--muted:#c5d3c5;--text:#eef3ea;--sage:#0a3324;--fern:#0a2f1e;--moss:#0d2a18}
 :root{background:#0a2010!important}
-body::before{background:linear-gradient(#0a201026,#0a201026),url(forest-shades14.svg) center/cover no-repeat}
+body::before{background:linear-gradient(#0a201026,#0a201026),url(forest-wood16.svg) center/cover no-repeat}
 .topbar{background:#0a2010f2}
 .sidebar{background:#0a2010e6}
 .search-wrap,.composer,.auth-form input,.demo-banner{background:#0a2010e6}
@@ -142,3 +142,15 @@ button.primary,.primary,.sidebar nav>button.active,.avatar,.mobile-compose{backg
 ::selection{background:#0a3324;color:#eef3ea}
 .toast{background:#0a3324;color:#eef3ea}
 .brand-dot{color:#eef3ea}
+
+/* v16: wider spread of the dark shades on cards; forest feel */
+.sage{background:#0a3324;color:#eef3ea}
+.fern{background:#0d2a18;color:#eef3ea}
+.moss{background:#0a2010;color:#eef3ea}
+.sage,.fern,.moss{box-shadow:inset 0 0 0 1px #ffffff29}
+.shade{border-color:#ffffff59}
+body::before{background:linear-gradient(#0a201014,#0a201014),url(forest-wood16.svg) center/cover no-repeat}
+.sidebar{background:#0a201099}
+.topbar{background:#0a2010cc}
+.search-wrap,.composer{background:#0a2010b3}
+.empty-state{background:#0a2010a6}
