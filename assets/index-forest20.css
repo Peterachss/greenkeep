@@ -169,3 +169,15 @@ body::before{background:linear-gradient(#04100a8c,#04100a73),url(forest-photo18.
 .moss.sh0{background:#544835}.moss.sh1{background:#081e20}.moss.sh2{background:#092926}
 .sage,.fern,.moss{color:#f1f3e8}
 .sage .note-tag,.fern .note-tag,.moss .note-tag{background:#0000003d;color:#f1f3e8}
+
+/* v20: colour picker swatches match the card families */
+.shade{width:30px;height:30px;border:1px solid #ffffff4d}
+.shade.sage{background:#656a54}
+.shade.fern{background:#143d30}
+.shade.moss{background:#544835}
+.shade:hover{border-color:#f1f3e8}
+.shade[aria-pressed=true]{outline:2px solid #f1f3e8;outline-offset:3px;border-color:#f1f3e8;color:#f1f3e8}
+.editor.sage,.editor.fern,.editor.moss{color:#f1f3e8}
+
+/* v20b: colours are automatic, hide the manual picker */
+.shade-picker{display:none!important}
