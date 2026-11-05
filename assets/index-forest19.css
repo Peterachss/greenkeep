@@ -162,3 +162,10 @@ body::before{background:linear-gradient(#04100a8c,#04100a73),url(forest-photo18.
 .search-wrap,.composer{background:#04100acc}
 .empty-state{background:#04100aa6}
 .auth-form input,.demo-banner{background:#04100acc}
+
+/* v19: card shades sampled from the forest photo */
+.sage.sh0{background:#143d30}.sage.sh1{background:#3d4f3b}.sage.sh2{background:#656a54}
+.fern.sh0{background:#11352c}.fern.sh1{background:#21302a}.fern.sh2{background:#383f31}
+.moss.sh0{background:#544835}.moss.sh1{background:#081e20}.moss.sh2{background:#092926}
+.sage,.fern,.moss{color:#f1f3e8}
+.sage .note-tag,.fern .note-tag,.moss .note-tag{background:#0000003d;color:#f1f3e8}
