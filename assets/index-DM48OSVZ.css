@@ -51,3 +51,22 @@ button.primary,.primary{background:var(--accent);color:var(--accent-ink);border-
 .nav-scrim{background:#1a1d0acc}
 .done-button,.moss .done-button{background:#00000024}
 .moss .done-button{background:#ffffff1f}
+
+/* v4: misty forest backdrop */
+:root,body{background:#2d3318 linear-gradient(#191d0a40,#191d0a40),url(forest.svg) center/cover fixed;background:linear-gradient(#191d0a38,#191d0a38),url(forest.svg) center/cover fixed #2d3318}
+body{min-height:100dvh}
+.topbar{background:#1a1e0a8c;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+.sidebar{background:#1a1e0a73;-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}
+.sidebar nav>button:hover{background:#ffffff14}
+.sidebar nav>button.active{background:#cfd29a;color:#1d200c}
+.search-wrap{background:#14180699;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.search-wrap:focus-within{background:#141806cc}
+.composer{background:#141806a6;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-radius:20px;height:68px}
+.composer:hover{background:#141806c4}
+.page-heading h1{text-shadow:0 2px 24px #0006}
+.page-heading p{color:#e2e4c4}
+.empty-state{background:#14180680;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-radius:24px;margin-top:40px;padding:56px 28px}
+.auth-form input{background:#14180699}
+.auth-copy,.auth-notes{text-shadow:0 1px 18px #0005}
+.demo-banner{background:#14180699}
+.account-menu{background:#1a1e0af0}
