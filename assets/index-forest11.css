@@ -108,3 +108,14 @@ button.primary,.primary{background:var(--accent);color:var(--accent-ink)}
 .mobile-compose{background:var(--accent);color:var(--accent-ink)}
 .secondary{border-color:#6f9276}
 ::selection{background:#8fb496;color:#0f1a14}
+
+/* v11: smooth rendering, no blur, forest on its own layer */
+*{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+:root{background:#16231c!important}body{background:transparent!important}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(#0a110d59,#0a110d59),url(forest-soft10.svg) center/cover no-repeat;transform:translateZ(0);will-change:transform}
+.topbar{background:#0a110df2}
+.sidebar{background:#0a110dd9}
+.search-wrap,.composer,.auth-form input,.demo-banner{background:#0a110dd9}
+.empty-state{background:#0a110dcc}
+.note-card{transition:none}
+.note-card:hover{transform:none}
