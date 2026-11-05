@@ -181,3 +181,13 @@ body::before{background:linear-gradient(#04100a8c,#04100a73),url(forest-photo18.
 
 /* v20b: colours are automatic, hide the manual picker */
 .shade-picker{display:none!important}
+
+/* v23: scrollbar and logo match the forest */
+:root,html,body,*{scrollbar-color:auto!important}
+::-webkit-scrollbar{width:12px;height:12px;background:#04100a}
+::-webkit-scrollbar-track{background:#04100a}
+::-webkit-scrollbar-thumb{background:#2d4a3a;border-radius:8px;border:2px solid #04100a}
+::-webkit-scrollbar-thumb:hover{background:#3d5f4b}
+::-webkit-scrollbar-button{display:none;width:0;height:0}
+::-webkit-scrollbar-corner{background:#04100a}
+.brand img{border-radius:9px}
