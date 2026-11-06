@@ -227,3 +227,13 @@ img,svg{-webkit-user-drag:none;user-select:none}
  .editor-tools .icon-button svg{width:24px;height:24px}
  .done-button,.moss .done-button{background:#eef3ea;color:#0a2010;font-size:16px;font-weight:600;padding:0 24px;height:48px;border-radius:14px;margin-left:auto}
 }
+
+/* v27: sort, tidy, trash tools, undo toast */
+.heading-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.sort-select,.tidy-button{height:40px;padding:0 14px;border-radius:12px;border:1px solid #ffffff3d;background:#04100acc;color:#eef3ea;font:inherit;font-size:14px;cursor:pointer}
+.sort-select:hover,.tidy-button:hover{border-color:#eef3ea}
+.sort-select option{background:#071a11;color:#eef3ea}
+.empty-trash{margin:0 0 18px;padding:10px 16px;border-radius:12px;border:1px solid #ffffff3d;background:#04100acc;color:#eef3ea;font-size:14px;cursor:pointer}
+.empty-trash:hover{border-color:#eef3ea}
+.toast.visible{pointer-events:auto;cursor:pointer}
+@media (max-width:600px){.heading-tools{gap:6px}.sort-select,.tidy-button{height:44px;font-size:14px}.page-heading{align-items:flex-start;gap:10px}}
