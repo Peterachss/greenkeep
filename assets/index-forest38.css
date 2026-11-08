@@ -278,3 +278,5 @@ img,svg{-webkit-user-drag:none;user-select:none}
 .pend-msg{position:absolute;inset:0;display:grid;align-content:center;justify-items:center;gap:8px;padding:8px;text-align:center;background:#04100ad9;color:#eef3ea;font-size:12px;line-height:1.3}
 .pend-msg button{padding:6px 12px;border-radius:10px;border:1px solid #ffffff66;background:#0a3324;color:#eef3ea;font-size:12px;cursor:pointer}
 .editor-img.failed{outline:1px solid #ffffff55}
+
+.gk-ds{display:flex;align-items:center;gap:8px}.gk-ds-dot{width:8px;height:8px;border-radius:50%;background:#ffffff40;flex:none}.gk-ds-dot.on{background:#ece7d3}@media(max-width:600px){.editor-body{min-height:26dvh}}
